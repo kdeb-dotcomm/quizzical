@@ -1,0 +1,35 @@
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #F5F7FB;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    background-color: #FFFAD1;
+    width: 300px;
+    height: 300px;
+    top: -100px;
+    right: -100px;
+    border-radius: 50% 40% 60% 50% / 50% 60% 40% 50%;
+    rotate: 128.49deg;
+}
+
+body::after{
+    content: "";
+    position: absolute;
+    background-color: #DEEBF8;
+    width: 300px;
+    height: 300px;
+    bottom: -100px;
+    left: -100px;
+    border-radius: 50% 40% 60% 50% / 50% 60% 40% 50%;
+    rotate: -128.49deg;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    color: #293264;
+    margin-top: 50px;
+}
