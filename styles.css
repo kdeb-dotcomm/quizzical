@@ -27,9 +27,47 @@ body::after{
     rotate: -128.49deg;
 }
 
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 .title {
-    text-align: center;
+    margin-bottom: 0;
     font-size: 32px;
     color: #293264;
-    margin-top: 50px;
+}
+
+.start-button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500 ;
+    background-color: #4D5B9E;
+    color: white;
+    padding: 15px 70px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.start-button:hover {
+    background-color: #3B4A7D;
+}
+.start-button:active {
+    background-color: #2A3A5C;
+}
+.start-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(77, 91, 158, 0.5);
+}
+
+.description {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #293264;
+    text-align: center;
+    font-style: regular;
+    margin-bottom: 50px;
 }
