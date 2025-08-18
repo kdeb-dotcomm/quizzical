@@ -60,7 +60,8 @@ body::after{
 .check-btn {
     background-color: #2A3A5C;
 }
-.start-button:focus {
+.start-button:focus,
+.check-btn {
     outline: none;
     box-shadow: 0 0 0 3px rgba(77, 91, 158, 0.5);
 }
